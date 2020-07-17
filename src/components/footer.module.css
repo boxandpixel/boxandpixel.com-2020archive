@@ -1,0 +1,12 @@
+.siteFooter {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inconsolata", sans-serif;
+    background: #ddd;
+    padding: 1rem;
+}
+
+.siteFooter > span {
+    display: block;
+}

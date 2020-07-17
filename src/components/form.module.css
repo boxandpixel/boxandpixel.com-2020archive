@@ -1,0 +1,54 @@
+.formContainer {
+    margin: 3rem 0;
+    display: grid;
+    align-items : center;
+    justify-content: center;
+}
+
+.formContainer > form {
+    background: #eee;
+    width: 80vw;
+    padding: 1rem;
+}
+
+.formContainer > form input,
+.formContainer > form textarea {
+    display: block;
+    width: calc(100% - 2rem);
+    resize: none;
+    margin: .5rem 0;
+    padding: 1rem;
+    font-family: "Inconsolata", sans-serif;
+    border: solid 1px #ccc;
+}
+
+.formContainer > form textarea {
+    min-height: 18.75rem;
+}
+
+@media(min-width: 768px) {
+    .formContainer > form {
+        width: 50vw;
+    }
+}
+
+.formContainer > form label {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.formContainer > form button[type="submit"] {
+    font-family: "Inconsolata", sans-serif;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: black;
+    color: white;
+    padding: .5rem 1rem;
+}

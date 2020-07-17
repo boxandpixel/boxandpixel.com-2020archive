@@ -1,0 +1,30 @@
+.boxContainer {
+    margin: 3rem 0;
+    display: grid;
+    align-items : center;
+    justify-content: center;
+
+}
+
+.boxContent {
+    background: #eee;
+    width: 80vw;
+    padding: 1rem;
+}
+
+@media(min-width: 768px) {
+    .boxContent {
+        width: 50vw;
+    }
+}
+
+.boxContent a {
+    font-family: "Inconsolata", sans-serif;
+    position: relative;
+}
+
+.boxContent a:after {
+    content: " \2192"
+}
+
+

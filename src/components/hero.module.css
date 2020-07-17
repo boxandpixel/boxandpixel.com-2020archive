@@ -1,0 +1,27 @@
+.heroContainer{
+    padding: 5rem 0;
+    /* background: lightgray; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,50vw));
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.heroContainer:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 200px 100vw 0 0;
+    border-color: #eee transparent transparent transparent;
+    z-index: 1;
+}
+
+.heroContainer h2 {
+    position: relative;
+    z-index: 2;
+}

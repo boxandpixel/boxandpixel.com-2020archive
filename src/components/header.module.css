@@ -1,0 +1,32 @@
+.siteHeader {
+    background: #333;
+    display: grid;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-columns: repeat(2,1fr);
+    font-family: "Inconsolata", sans-serif;
+}
+
+.siteTitle {
+    
+    font-size: 1.25rem;
+}
+
+.siteTitle a {
+    color: white;
+    text-decoration: none;
+}
+
+.siteNav {
+    display: grid;
+    justify-content: end;
+}
+
+.siteNav > li {
+    list-style: none;
+}
+
+.siteNav > li > a {
+    color: white;
+}
