@@ -21,6 +21,7 @@
 .siteNav {
     display: grid;
     justify-content: end;
+    margin-bottom: 0;
 }
 
 .siteNav > li {

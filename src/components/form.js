@@ -4,9 +4,9 @@ import formStyles from './form.module.css'
 export default function Form() {
     return (
         <section className={formStyles.formContainer}>
-            <form name="contact" action="/thank-you/" netlify>
+            <form name="contact" action="/thank-you/" netlify="true">
                 <fieldset>
-                    <label for="name">Name</label>
+                    <label htmlFor="name">Name</label>
                     <input
                         id="name"
                         name="name"
@@ -16,7 +16,7 @@ export default function Form() {
                 </fieldset>
 
                 <fieldset>
-                    <label for="email">Email</label>
+                    <label htmlFor="email">Email</label>
                     <input
                         id="email"
                         name="email"
@@ -26,7 +26,7 @@ export default function Form() {
                 </fieldset>
 
                 <fieldset>
-                    <label for="company">Company</label>
+                    <label htmlFor="company">Company</label>
                     <input
                         id="company"
                         name="company"
@@ -36,7 +36,7 @@ export default function Form() {
                 </fieldset>
 
                 <fieldset>
-                    <label for="message">Message</label>
+                    <label htmlFor="message">Message</label>
                     <textarea
                         id="message"
                         name="message"

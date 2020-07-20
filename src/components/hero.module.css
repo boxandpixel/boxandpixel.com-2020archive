@@ -2,7 +2,7 @@
     padding: 5rem 0;
     /* background: lightgray; */
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px,50vw));
+    grid-template-columns: repeat(auto-fit, minmax(300px,50vw));
     align-items: center;
     justify-content: center;
     position: relative;
