@@ -4,7 +4,9 @@ import formStyles from './form.module.css'
 export default function Form() {
     return (
         <section className={formStyles.formContainer}>
-            <form name="contact" action="/thank-you/" netlify="true" method="post">
+            <form name="contact" action="/thank-you/" netlify="true" netlify-honeypot="bot-field" method="post">
+                <input type="hidden" name="bot-field" />
+                <input type="hidden" name="form-name" name="contact" />
                 <fieldset>
                     <label htmlFor="name">Name</label>
                     <input
