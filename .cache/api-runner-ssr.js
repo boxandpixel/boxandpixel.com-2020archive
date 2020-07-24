@@ -1,4 +1,7 @@
 var plugins = [{
+      plugin: require('/Users/briangunzenhauser/Sites/boxandpixel.com/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      options: {"plugins":[],"trackingId":"UA-27682359-1"},
+    },{
       plugin: require('/Users/briangunzenhauser/Sites/boxandpixel.com/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"Box & Pixel","short_name":"boxandpixel","start_url":"/","background_color":"#ffffff","theme_color":"#ffffff","display":"standalone","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":null},
     },{
