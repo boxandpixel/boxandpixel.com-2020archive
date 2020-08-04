@@ -7,9 +7,10 @@
 }
 
 .boxContent {
-    background: #eee;
+    /* background: #F9F2E7; */
+    border-bottom: solid 10px #7B9099;
     width: 80vw;
-    padding: 1rem;
+    padding-bottom: 1rem;
 }
 
 @media(min-width: 768px) {
@@ -21,10 +22,16 @@
 .boxContent a {
     font-family: "Inconsolata", sans-serif;
     position: relative;
+    color: #1C556D;
 }
 
 .boxContent a:after {
     content: " \2192"
+}
+
+.boxContent h3 {
+    color: #0E2A36;
+    margin-bottom: 5px;
 }
 
 

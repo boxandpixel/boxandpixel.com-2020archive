@@ -17,11 +17,14 @@
     height: 0;
     border-style: solid;
     border-width: 200px 100vw 0 0;
-    border-color: #eee transparent transparent transparent;
+    border-color: #E4F2F8 transparent transparent transparent;
+    /* border-color: linear-gradient(90deg, rgba(232,244,249,1) 0%, rgba(249,231,231,1) 50%, rgba(249,242,231,1) 100%) transparent transparent transparent; */
+    /* background: linear-gradient(90deg, rgba(232,244,249,1) 0%, rgba(249,231,231,1) 50%, rgba(249,242,231,1) 100%); */
     z-index: 1;
 }
 
 .heroContainer h2 {
     position: relative;
     z-index: 2;
+    color: #0E2A36;
 }

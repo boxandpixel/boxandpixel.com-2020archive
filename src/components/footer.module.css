@@ -3,10 +3,11 @@
     align-items: center;
     justify-content: center;
     font-family: "Inconsolata", sans-serif;
-    background: #ddd;
+    background: #040C10;
     padding: 1rem;
 }
 
 .siteFooter > span {
     display: block;
+    color: white;
 }

@@ -1,5 +1,5 @@
 .siteHeader {
-    background: #333;
+    background: #040C10;
     display: grid;
     padding: 1rem;
     align-items: center;
@@ -14,7 +14,7 @@
 }
 
 .siteTitle a {
-    color: white;
+    color: #43A5CF;
     text-decoration: none;
 }
 

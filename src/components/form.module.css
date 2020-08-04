@@ -6,9 +6,9 @@
 }
 
 .formContainer > form {
-    background: #eee;
+    /* background: #eee; */
     width: 80vw;
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 
 .formContainer > form input,
@@ -19,7 +19,12 @@
     margin: .5rem 0;
     padding: 1rem;
     font-family: "Inconsolata", sans-serif;
-    border: solid 1px #ccc;
+    border: solid 2px #7B9099;
+}
+
+.formContainer > form input:focus-within,
+.formContainer > form textarea:focus-within {
+    /* border-color: green; */
 }
 
 .formContainer > form textarea {
@@ -48,7 +53,7 @@
     margin: 0;
     padding: 0;
     border: none;
-    background: black;
-    color: white;
+    background: #040C10;
+    color: #43A5CF;
     padding: .5rem 1rem;
 }

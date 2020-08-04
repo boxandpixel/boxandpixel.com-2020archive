@@ -4,4 +4,12 @@ date: "2020-07-16"
 order: 2
 ---
 
-Web technology moves at the speed of light. Staying on top of what’s out there is critical, because today’s new hotness might be tomorrow’s old hat. 
+Here's a list of the technology we commonly work with:
+
++ HTML
++ CSS
++ JS
++ PHP
++ Wordpress (custom)
++ Gatsby
+
