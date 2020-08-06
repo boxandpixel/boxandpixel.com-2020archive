@@ -7,15 +7,15 @@ import { useForm } from 'react-hook-form'
 export default function Form() {
 
     const { register, handleSubmit, errors } = useForm();
+
     const onSubmit = (data, e) => {
         console.log(data);
 
-        fetch("/ ", {
+        fetch("/contact ", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             //   body: encode({ "form-name": "contact", ...this.state })
         })
-            // .then(() => alert("Success!"))
             .catch(error => console.log("There are errors"));
 
         e.preventDefault();
