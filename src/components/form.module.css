@@ -48,6 +48,13 @@
   width: 1px;
 }
 
+.inputRequired {
+    color: #CF4449;
+    font-size: .8125rem;
+    display: block;
+    margin-bottom: .8125rem;
+}
+
 .formContainer > form button[type="submit"] {
     font-family: "Inconsolata", sans-serif;
     margin: 0;
