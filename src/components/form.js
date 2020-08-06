@@ -7,8 +7,18 @@ import { useForm } from 'react-hook-form'
 export default function Form() {
 
     const { register, handleSubmit, errors } = useForm();
-    const onSubmit = (data) => {
+    const onSubmit = (data, e) => {
         console.log(data);
+
+        fetch("/ ", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            //   body: encode({ "form-name": "contact", ...this.state })
+        })
+            // .then(() => alert("Success!"))
+            .catch(error => console.log("There are errors"));
+
+        e.preventDefault();
     };
 
     return (
@@ -22,6 +32,7 @@ export default function Form() {
                         id="name"
                         name="name"
                         type="text"
+                        aria-invalid={errors.name ? "true" : "false"}
                         placeholder="Name*"
                         ref={register({ required: true })}
                     />
@@ -36,6 +47,7 @@ export default function Form() {
                         id="email"
                         name="email"
                         type="email"
+                        aria-invalid={errors.email ? "true" : "false"}
                         placeholder="Email*"
                         ref={register({
                             required: true,
@@ -68,6 +80,7 @@ export default function Form() {
                     <textarea
                         id="message"
                         name="message"
+                        aria-invalid={errors.message ? "true" : "false"}
                         placeholder="How can we help you?*"
                         ref={register({ required: true })}
                     />
