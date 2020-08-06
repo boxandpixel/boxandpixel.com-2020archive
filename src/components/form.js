@@ -1,7 +1,12 @@
 import React from 'react'
 import formStyles from './form.module.css'
+import useForm from 'react-hook-form'
+
+// const { register, handleSubmit } = useForm();
+// const onSubmit = data => console.log(data);
 
 export default function Form() {
+
     return (
         <section className={formStyles.formContainer}>
             <form name="contact" action="/thank-you/" netlify="true" netlify-honeypot="bot-field" method="post">

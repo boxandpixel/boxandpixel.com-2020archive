@@ -10,6 +10,7 @@ export default function Home({ data }) {
   console.log(data)
   return (
     <Layout>
+
       <Header />
       <Hero heroText="A smart approach to modern web development." />
       {data.allMarkdownRemark.edges.map(({ node }) => (
