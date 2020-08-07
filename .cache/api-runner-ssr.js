@@ -12,7 +12,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/briangunzenhauser/Sites/boxandpixel.com/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
-      options: {"plugins":[],"fonts":["Inconsolata:400","Open Sans:400,800"],"display":"swap"},
+      options: {"plugins":[],"fonts":["Inconsolata:400","Open Sans:300,400,800"],"display":"swap"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

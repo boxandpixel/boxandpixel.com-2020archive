@@ -1,28 +1,37 @@
-.boxContainer {
+.boxContainer,
+.introContainer {
     margin: 3rem 0;
     display: grid;
     align-items : center;
     justify-content: center;
-
 }
 
-.boxContent {
-    /* background: #F9F2E7; */
+.boxContent,
+.introContent {
     border-bottom: solid 10px #7B9099;
     width: 80vw;
     padding-bottom: 1rem;
 }
 
+
 @media(min-width: 768px) {
-    .boxContent {
+    .boxContent,
+    .introContent {
         width: 50vw;
     }
+}
+
+.introContent p {
+    color: red;
 }
 
 .boxContent a {
     font-family: "Inconsolata", sans-serif;
     position: relative;
     color: #1C556D;
+}
+
+.boxContent li {
 }
 
 .boxContent a:after {

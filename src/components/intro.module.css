@@ -1,0 +1,27 @@
+.introContainer {
+    margin: 3rem 0;
+    display: grid;
+    align-items : center;
+    justify-content: center;
+}
+
+.introContent {
+    border-bottom: solid 10px #7B9099;
+    width: 80vw;
+    padding-bottom: 1rem;
+}
+
+
+@media(min-width: 768px) {
+    .introContent {
+        width: 50vw;
+    }
+}
+
+.introContent p {
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+

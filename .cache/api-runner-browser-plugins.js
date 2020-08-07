@@ -8,6 +8,9 @@ module.exports = [{
       plugin: require('../node_modules/gatsby-plugin-offline/gatsby-browser.js'),
       options: {"plugins":[]},
     },{
+      plugin: require('../node_modules/gatsby-remark-images/gatsby-browser.js'),
+      options: {"plugins":[],"maxWidth":200,"linkImagesToOriginal":true,"wrapperStyle":"display: inline; margin-left: 10px; margin-right: 10px;"},
+    },{
       plugin: require('../node_modules/gatsby-plugin-catch-links/gatsby-browser.js'),
       options: {"plugins":[]},
     },{

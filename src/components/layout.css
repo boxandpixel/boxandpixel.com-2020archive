@@ -4,10 +4,11 @@ body {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.5;
     margin-bottom: 1rem;
     color: #858C8F;
+    font-weight: 300;
 }
 
 p:last-child {
@@ -19,11 +20,12 @@ ul {
 }
 
 ul li {
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.5;
     list-style: circle;
     margin-left: 2rem;
     color: #858C8F;
+    font-weight: 300
 
 }
 

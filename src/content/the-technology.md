@@ -3,13 +3,7 @@ title: "The Technology"
 date: "2020-07-16"
 order: 2
 ---
+Including, but not limited to:
 
-Here's a list of the technology we commonly work with:
-
-+ HTML
-+ CSS
-+ JS
-+ PHP
-+ Wordpress (custom)
-+ Gatsby
+HTML, CSS, JS, Gatsby, Next.js, Wordpress, PHP
 

@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import Header from "../components/header"
 import Hero from "../components/hero"
+import Intro from "../components/intro"
 import Box from "../components/box"
 import Footer from "../components/footer"
 import { graphql } from "gatsby"
@@ -12,7 +13,8 @@ export default function Home({ data }) {
     <Layout>
 
       <Header />
-      <Hero heroText="A smart approach to modern web development." />
+      <Hero heroText="A calculated approach to modern web development." />
+      <Intro introText="Box &amp; Pixel is a website development consultancy, with a problem-first approach to building usable experiences." />
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id}>
           <Box>
