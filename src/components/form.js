@@ -35,6 +35,7 @@ export default function Form() {
                         type="text"
                         // aria-invalid={errors.name ? "true" : "false"}
                         placeholder="Name*"
+                        required
                     // ref={register({ required: true })}
                     />
                     {/* {errors.name && errors.name.type === "required" && (
@@ -50,6 +51,8 @@ export default function Form() {
                         type="email"
                         // aria-invalid={errors.email ? "true" : "false"}
                         placeholder="Email*"
+                        required
+                        pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
                     // ref={register({
                     //     required: true,
                     //     pattern: {
